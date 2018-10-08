@@ -1,27 +1,68 @@
-# homework3
+# vue 平台練習作品
 
-> A Vue.js project
+上一篇： [vue-cli & firebase 簡介](https://hackmd.io/s/rkQkGSu5Q)
 
-## Build Setup
+---
 
-``` bash
-# install dependencies
-npm install
+下載範例：
 
-# serve with hot reload at localhost:8080
-npm run dev
+https://github.com/anita8004/vue-dashboard-customer
 
-# build for production with minification
-npm run build
+在選定位置打開終端機輸入以下內容
 
-# build for production and view the bundle analyzer report
-npm run build --report
+```
+git clone https://github.com/anita8004/vueShopTest.git 
+cd vueShopTest
+npm install || yarn install
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+:::warning
+|| 是 or 的意思
+:::
 
+start 需要一些時間，完成後會顯示：
 
-登入帳密
+![](https://i.imgur.com/PUs0JoY.png)
+
+然後ctrl + 左鍵點擊網址
+
+---
+
+## 加入自己的firebase設定
+
+1. 進入專案
+
+![](https://i.imgur.com/ePxyAPa.png)
+
+2. 進入後，點擊新增應用程式，選取平台 -> 選最右邊
+
+![](https://i.imgur.com/Z85LsIV.png)
+![](https://i.imgur.com/fPBZ6Gk.png)
+
+3. 複製程式碼
+
+![](https://i.imgur.com/Qx3D1SG.png)
+
+4. 打開main.js
+
+剛剛複製的程式碼這邊只需要 config 的部分就好了
+用config的部分替換掉以下程式碼
+
+```javascript
+let config = {}
+```
+
+---
+
+## 執行
+
+```
+npm start || yarn start
+```
+
+---
+
+## 預設系統帳密
 
 admin@admin.com
 
